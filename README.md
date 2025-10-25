@@ -1,4 +1,4 @@
-# Supermicro MBD-X11SAE-O Hackintosh
+# Supermicro X11SSL-F Hackintosh
 
 **Supported macOS version:** macOS 14 - Sonoma, macOS 15 - Sequoia
 
@@ -25,9 +25,8 @@ Proceed with the update as you normally would on a Mac. Open System Settings, ch
 
 ## Quirks
 
-Only one of the 2 Ethernet ports works in macOS. The left Ethernet port (closer to the display cables) functions.
+none?
 
-However, if you plug anything into the right Ethernet port, the system will kernel panic soon after boot. There are multiple reports of this issue for different SuperMicro motherboards, and I was unable to find a fix.
 
 ## Notes
 
@@ -80,7 +79,7 @@ If you choose to try this config on a different motherboard despite the warnings
 10) [BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.9**) - Broadcom USB Bluetooth support
 11) [BrcmFirmwareData](https://github.com/acidanthera/BrcmPatchRAM) (**n/a**) - Part of BrcmPatchRAM. Firmware files for bootloader injection
 12) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**n/a**) - Part of BrcmPatchRAM. Required for macOS 12+
-
+13) [AppleIGB](https://github.com/Shaneee/AppleIGB) (**n/a**) - for i210-at support
 ### Tools
 
 1) `OpenShell.efi` - EFI shell, useful for debugging
