@@ -18,10 +18,10 @@ Proceed with the update as you normally would on a Mac. Open System Settings, ch
 
 ## Hardware
 
-- **Motherboard**: Supermicro MBD-X11SAE-O
-- **GPU**: Gigabyte PCI-E Radeon RX 570 8GB _(GV-RX570GAMING-8GD-MI)_ - **Polaris**
-- **CPU**: Intel Xeon E3-1225 v6 _(cm8067702871024s r32c)_ - **Kaby Lake**
-- **Bluetooth**: ASUS USB-BT400 (`0b05:17cb` _ASUSTek Computer Inc. BCM20702A0_) - most USB Broadcom dongles should also work
+- **Motherboard**: Supermicro X11SSL-F
+- **GPU**: Sapphire PCI-E Radeon RX 580 4GB - **Polaris**
+- **CPU**: Intel Xeon E3-1270 v6 _(cm8067702871024s r32c)_ - **Kaby Lake**
+- **Bluetooth**: ASUS USB-BT400 (`0b05:17cb` _ASUSTek Computer Inc. BCM20702A0_) - (must work but untesed)
 
 ## Quirks
 
